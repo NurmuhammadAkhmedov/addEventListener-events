@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px auto;
+}
+.counter button {
+    background: gray;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#count {
+    font-size: 40px;
+    margin: 0 20px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+.color-box {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    border: 2px solid white;
+    background-color: red;
+    margin-left: 10px;
+}
+#colorInput{
+    width: 100px;
+}
